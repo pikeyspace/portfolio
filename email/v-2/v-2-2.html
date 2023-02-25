@@ -1,0 +1,366 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="color-scheme" content="light dark">
+   <meta name="supported-color-schemes" content="light dark">
+	<title>Email Template v-2 by PiKey</title>
+   <style type="text/css">
+   	@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+      table {
+         border-spacing: 0;
+      }
+      td {
+         padding: 0;
+      }
+      @media (prefers-color-scheme: dark) {
+         .dark-mode {
+            background-color: #2c2c2c !important;
+            color: #ffffff!important;
+         }
+         .dark-mode-border-radius {
+            border-radius: 10px!important;
+         } 
+      }
+   </style>
+   
+	<!--[if (gte mso 9)|(IE)]>
+		<style type="text/css">
+			table {border-collapse: collapse !important;}
+		</style>
+	<![endif]-->
+	
+</head>
+<body style="Margin:0;padding:0;min-width:100%;background-color:#ffffff;">
+
+   <!--[if (gte mso 9)|(IE)]>
+      <style type="text/css">
+         body {background-color:#dde0e1!important;}
+         body, table, td, p, a {font-family: sans-serif, Arial, Helvetica!important;}
+      </style>
+   <![endif]-->
+
+   <center style="width: 100%;max-width:1920px;table-layout: fixed;background-color:#ffffff;padding: 0;">
+      <div style="max-width: 1920px;background-color: #ffffff;;padding: 16px;">
+
+         <div style="font-size: 0px;color: #fafdfe;line-height: 1px;mso-line-height-rule:exactly;display: none;max-width: 0px;max-height: 0px;opacity: 0;overflow: hidden;mso-hide:all;">
+            Email Template v-2 by PiKey
+         </div>
+
+         <!--[if (gte mso 9)|(IE)]>
+            <table width="1888" align="center" style="border-spacing:0;color:#000000;" role="presentation">
+            <tr>
+            <td>
+         <![endif]-->
+
+         <table class="main-content-wrapper" align="center" style="border-spacing:0;color:#000000;font-family: 'Roboto', sans-serif, Arial, Helvetica!important;background-color: #ffffff;Margin:0;padding:20px; width: 100%;max-width: 1888px;" role="presentation">
+            <!-- QRadar Offense Information -->
+            <tr>
+               <td >
+                  <table width="100%" style="border-spacing: 0;background-color: #ffffff; padding: 0;border-radius: 10px;" role="presentation">
+                     <tr>
+                        <td >
+                           <table width="100%" style="border-spacing: 0;background-color: #dde0e1; padding: 0;border-radius: 10px;" role="presentation">
+                              <!--Offense Information table-->
+                              <tr>
+                                 <td>
+                                    <table id="offense-information" width="100%" style="border-spacing: 0; padding:16px 16px 0 0;" role="presentation">
+                                       <tr>
+                                          <td style="padding:16px 16px 16px 32px;font-size: 20px;font-weight: 500;line-height:1.2;letter-spacing: 1.15px;color: rgba(0, 0, 0, 0.87);">QRadar Offense Information:</td>
+                                       </tr>
+                                       <tr>
+                                          <td style="padding-left: 16px; padding-right: 16px; ">
+                                             <table width="1856" style="border-spacing: 0; border-radius: 8px; box-shadow: 0 0 10px #000000;" role="presentation">
+                                                <thead>
+                                                   <tr>
+                                                         <th  class="dark-mode" align="center" style="text-align: center;background-color: #b3cee9;width: 100px; font-size: 14px;padding: 20px 16px 20px 16px;border-radius: 8px 0 0 0;">OFFENCE ID</th>
+                                                         <th  class="dark-mode" align="center" style="text-align: center;background-color: #b3cee9;width: 100px; font-size: 14px;padding: 20px 16px 20px 16px;">OFFENCE NAME</th>
+                                                         <th  class="dark-mode" align="center" style="text-align: center;background-color: #b3cee9;width: 100px; font-size: 14px;padding: 20px 16px 20px 16px;">OFFENCE CATEGORY</th>
+                                                         <th  class="dark-mode" align="center" style="text-align: center;background-color: #b3cee9;width: 100px; font-size: 14px;padding: 20px 16px 20px 16px;">START TIME</th>
+                                                         <th  class="dark-mode" align="center" style="text-align: center;background-color: #b3cee9;width: 100px; font-size: 14px;padding: 20px 16px 20px 16px;">END TIME</th>
+                                                         <th  class="dark-mode" align="center" style="text-align: center;background-color: #b3cee9;width: 100px; font-size: 14px;padding: 20px 16px 20px 16px;border-radius: 0 8px 0 0;">CRED/REL/SEV</th>
+                                                   </tr>
+                                                <thead>
+                                                <tr>
+                                                   <td style="text-align: left;color:rgba(0, 0, 0, 0.87);background-color: #ffffff; font-size: 14px; padding: 16px; border-radius: 0 0 0 8px;">${of_id}</td>
+                                                   <td style="text-align: left;color:rgba(0, 0, 0, 0.87);background-color: #ffffff; font-size: 14px; padding: 16px;">${of_name}</td>
+                                                   <td style="text-align: left;color:rgba(0, 0, 0, 0.87);background-color: #ffffff; font-size: 14px; padding: 16px">${of_cat}</td>
+                                                   <td style="text-align: left;color:rgba(0, 0, 0, 0.87);background-color: #ffffff; font-size: 14px; padding: 16px;">${of_start}</td>
+                                                   <td style="text-align: left;color:rgba(0, 0, 0, 0.87);background-color: #ffffff; font-size: 14px; padding: 16px;">${of_end}</td>
+                                                   <td align="right" style="text-align: left;color:rgba(0, 0, 0, 0.87);background-color: #ffffff; font-size: 14px; padding: 16px; border-radius: 0 0 8px 0;">${of_cred} /  ${of_rel} /  ${of_sev}</td>
+                                                </tr>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </table>
+                                 </td>
+                              </tr>
+                              <!--End Offense Information table-->
+                              <tr>
+                                 <td height="16"></td>
+                              </tr>                  
+                              <!-- Two columns -->
+                              <tr >
+                                 <td style="padding-left: 16px; padding-right: 16px; padding-bottom: 16px;font-size: 0;text-align: left;">
+                                    <table id="two-small-blocks" style="border-spacing: 0; padding:16px 16px 0 0;" role="presentation">
+                                       <tr>
+                                          <td>
+                                             <table   id="small-block-left" width="444" style="border-spacing: 0; border-radius: 8px; padding:0; box-shadow: 0 0 10px #000000;" role="presentation">
+                                                <thead  >
+                                                   <tr>
+                                                         <th class="dark-mode"  align="left" style="text-align: left;background-color: #ffffff;font-size: 14px;padding: 16px;border-radius: 8px 8px 0 0;">Offense Data:</th>
+                                                   </tr>
+                                                <thead>
+                                                <tr style="text-align: left;color:rgba(0, 0, 0, 0.87);background-color: #ffffff;">
+                                                   <td style="font-size: 14px; padding: 0 16px;">Offense Type:&nbsp;<span style="font-weight: 400;">${mapper_name}</span></td>
+                                                </tr>
+                                                <tr >
+                                                   <td style="font-size: 14px; padding: 5px 16px 16px 16px; border-radius: 0 0 8px 8px; background-color: #ffffff">Offense Source:&nbsp;<span style="font-weight: 400;">${src_fixed}</span></td>
+                                                </tr>
+                                             </table>
+                                          </td>
+                                          <td>
+                                             <table id="small-block-right" width="444" style="border-spacing: 0; border-radius: 8px; padding:0; box-shadow: 0 0 10px #000000; Margin-left: 16px;" role="presentation">
+                                                <thead  >
+                                                   <tr >
+                                                         <th class="dark-mode"  align="left" style="text-align: left;background-color: #ffffff;font-size: 14px;padding: 16px;border-radius: 8px 8px 0 0;">Asset Information:</th>
+                                                   </tr>
+                                                <thead>
+                                                <tr style="text-align: left;color:rgba(0, 0, 0, 0.87);background-color: #ffffff;">
+                                                   <td style="font-size: 14px; padding: 0 16px;">Given Name:&nbsp;<span style="font-weight: 400;">${as_Given Name}</span></td>
+                                                </tr>
+                                                <tr>
+                                                   <td style="font-size: 14px; padding: 5px 16px 16px 016px;background-color: #ffffff; border-radius: 0 0 8px 8px;">Unified Name:&nbsp;<span style="font-weight: 400;">${as_Unified Name}</span></td>
+                                                </tr>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </table>
+                                 </td>
+                              </tr>
+                              <!-- End Two columns -->
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+            <!-- End QRadar Offense Information: -->
+            <tr>
+               <td height="16"></td>
+            </tr>
+            <!--Rules-->
+            <tr>
+               <td >
+                  <table width="100%" style="border-spacing: 0;background-color: #dde0e1; padding: 0;border-radius: 10px;" role="presentation">
+                     <tr>
+                        <td style="padding-left: 16px; padding-right: 16px; padding-bottom: 16px;">
+                           <table width="100%" style="border-spacing: 0; padding:16px 16px 0 0;" role="presentation">
+                              <tr>
+                                 <td style="padding: 16px;font-size: 20px;font-weight: 500;line-height:1.2;letter-spacing: 1.15px;color: rgba(0, 0, 0, 0.87);">Rules:</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <table width="1856" style="border-spacing: 0; border-radius: 8px; padding:0; box-shadow: 0 0 10px #000000;" role="presentation">
+                                       <thead  >
+                                          <tr>
+                                                <th class="dark-mode" align="left" style="text-align: center;background-color: #b3cee9;width: 106px; font-size: 14px;padding: 20px 16px 20px 16px;border-radius: 8px 0 0 0;">RULE TYPE</th>
+                                                <th class="dark-mode" align="left" style="text-align: center;background-color: #b3cee9;width: 165px; font-size: 14px;padding: 20px 16px 20px 16px;">RULE NAME</th>
+                                                <th class="dark-mode" align="left" style="text-align: center;background-color: #b3cee9;width: 793px; font-size: 14px;padding: 20px 16px 20px 16px;">RULE DESCRIPTION</th>
+                                                <th class="dark-mode" align="left" style="text-align: center;background-color: #b3cee9;width: 793px; font-size: 14px;padding: 20px 16px 20px 16px;border-radius: 0 8px 0 0;">RULE LOGIC</th>
+                                          </tr>
+                                       <thead>
+                                       <tr>
+                                          <td style="text-align: left;color:rgba(0, 0, 0, 0.87);background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px; border-radius: 0 0 0 8px;">${rule_type}</td>
+                                          <td style="text-align: left;color:rgba(0, 0, 0, 0.87);background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;">${rule_name}</td>
+                                          <td style="text-align: left;color:rgba(0, 0, 0, 0.87);background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 016px">${rule_description}</td>
+                                          <td style="text-align: left;color:rgba(0, 0, 0, 0.87);background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px; border-radius: 0 0 8px 0;">${rule_logic}</td>
+                                       </tr>
+                                    </table>
+                                 </td>
+                              </tr>
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+            <!--End Rules-->
+            <tr>
+               <td height="16"></td>
+            </tr>
+            <!--Events and Flows-->
+            <tr>
+               <td style="background-color: #ffffff;">
+                  <table width="100%" style="border-spacing: 0;background-color: #dde0e1; padding: 0;border-radius: 10px;" role="presentation">
+                     <tr>
+                        <td style="padding-left: 16px; padding-right: 16px; padding-bottom: 16px;">
+                            <!--Events-->
+                           <table width="1856" style="border-spacing: 0; padding:16px 16px 0 0;" role="presentation">
+                                <tr>
+                                    <td style="padding-left: 16px; padding-top: 16px;">
+                                       <p style="font-size: 20px;font-weight: 500; line-height: 1.2;Margin:0;">Events&nbsp;
+                                          <span style="font-size: 16px;font-weight:400;">Total:&nbsp;</span><span style="font-weight: 600; font-size: 20px;">9</span>&nbsp;
+                                          <span style="font-size: 16px;font-weight:400;">Showed:&nbsp;</span><span style="font-weight: 600; font-size: 20px;">9</span>
+                                       </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="16"></td>
+                                </tr>
+                                <tr>
+                                 <td>
+                                    <table width="1856" style="border-spacing: 0; border-radius: 8px; padding:0; box-shadow: 0 0 10px #000000;" role="presentation">
+                                        <thead  >
+                                          <tr>
+                                                <th class="dark-mode" align="center" colspan="4" style="width: 620px; font-size: 14px;padding: 20px 16px 20px 16px;border-radius: 8px 0 0 0; border-right: 1px solid #e0e0e0; border-radius: 8px 0 0 0;background-color: #b3cee9;">SOURCE</th>
+                                                <th class="dark-mode" align="center" colspan="4" style="width: 620px; font-size: 14px;padding: 20px 16px 20px 16px;; border-right: 1px solid #e0e0e0; background-color: #b3cee9;">DESTINATION</th>
+                                                <th class="dark-mode" align="center" rowspan="2" style="width: 220px; font-size: 14px;padding: 20px 16px 20px 16px; background-color: #d0dce8">DEVICE NAME</th>
+                                                <th class="dark-mode" align="center" rowspan="2" style="width: 220px; font-size: 14px;padding: 20px 16px 20px 16px; background-color: #d0dce8;">DEVICE TIME</th>
+                                                <th class="dark-mode" align="center" rowspan="2" style="width: 150px; font-size: 14px;padding: 20px 16px 20px 16px; background-color: #d0dce8;">DEVICE TIME</th>
+                                                <th class="dark-mode" align="center" rowspan="2" style="width: 80px; font-size: 14px;padding: 20px 16px 20px 16px; border-radius: 0 8px 0 0; background-color:#d0dce8;">EVENT<br>COUNT</th>
+                                          </tr>
+                                          <tr style="background-color: #d0dce8;">
+                                            <th class="dark-mode" align="left" style="width: 150px; font-size: 14px;padding: 20px 16px 20px 16px;">IP</th>
+                                            <th class="dark-mode" align="left" style="width: 150px; font-size: 14px;padding: 20px 16px 20px 16px;">PORT</th>
+                                            <th class="dark-mode" align="left" style="width: 150px; font-size: 14px;padding: 20px 16px 20px 16px;">USERNAME</th>
+                                            <th class="dark-mode" align="left" style="width: 150px; font-size: 14px;padding: 20px 16px 20px 16px; border-right: 1px solid #e0e0e0;" >NETWORK</th>
+                                            <th class="dark-mode" align="left" style="width: 150px; font-size: 14px;padding: 20px 16px 20px 16px;">IP</th>
+                                            <th class="dark-mode" align="left" style="width: 150px; font-size: 14px;padding: 20px 16px 20px 16px;">PORT</th>
+                                            <th class="dark-mode" align="left" style="width: 150px; font-size: 14px;padding: 20px 16px 20px 16px;">USERNAME<br>(FROM REFSET)</th>
+                                            <th class="dark-mode" align="left" style="width: 150px; font-size: 14px;padding: 20px 16px 20px 16px; border-right: 1px solid #e0e0e0; ">NETWORK</th>
+                                          </tr>
+                                       <thead>
+                                       <tr>
+                                          <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px; ; border-bottom: 1px solid #e0e0e0;" align="left">${event_SourceIP}</td>
+                                          <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${event_SourcePort}</td>
+                                          <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${event_UserName}</td>
+                                          <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0; border-right: 1px solid #e0e0e0;" align="left">${event_SourceNetwork}</td>
+                                          <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align=l"eft>${event_DestinationIP}</td>
+                                          <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${event_DestinationPort}</td>
+                                          <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${event_DestinationUserName}</td>
+                                          <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0; border-right: 1px solid #e0e0e0;" align="left">${event_estinationNetwork}</td> 
+                                          <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${event_DeviceName}</td>
+                                          <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${event_DeviceTime}</td>
+                                          <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${event_Payload}</td>
+                                          <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="right">${event_EventCount}</td>
+                                       </tr>
+                                       <tr>
+                                          <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px; border-radius: 0 0 0 8px; border-bottom: 1px solid #e0e0e0;" align="left">${event_SourceIP}</td>
+                                          <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${event_SourcePort}</td>
+                                          <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${event_UserName}</td>
+                                          <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0; border-right: 1px solid #e0e0e0;" align="left">${event_SourceNetwork}</td>
+                                          <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align=l"eft>${event_DestinationIP}</td>
+                                          <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${event_DestinationPort}</td>
+                                          <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${event_DestinationUserName}</td>
+                                          <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0; border-right: 1px solid #e0e0e0;" align="left">${event_estinationNetwork}</td> 
+                                          <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${event_DeviceName}</td>
+                                          <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${event_DeviceTime}</td>
+                                          <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${event_Payload}</td>
+                                          <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px; border-radius: 0 0 8px 0; border-bottom: 1px solid #e0e0e0;" align="right">${event_EventCount}</td>
+                                       </tr>
+                                    </table>
+                                 </td>
+                              </tr>
+                           </table>
+                           <!--End Events-->
+                           <!--Flows-->
+                           <table id="flows" width="1856" style="border-spacing: 0; padding:16px 16px 0 0;" role="presentation">
+                              <tr>
+                                 <td style="padding-left: 16px; padding-top: 32px;">
+                                    <p style="font-size: 20px;font-weight: 500; line-height: 1.2;Margin:0;">Flows&nbsp;
+                                          <span style="font-size: 16px;font-weight:400;">Total:&nbsp;</span><span style="font-weight: 600; font-size: 20px;">9</span>&nbsp;
+                                          <span style="font-size: 16px;font-weight:400;">Showed:&nbsp;</span><span style="font-weight: 600; font-size: 20px;">9</span>
+                                    </p>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td height="16"></td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <table width="1856" style="border-spacing: 0; border-radius: 8px; padding:0; box-shadow: 0 0 10px #000000;" role="presentation">
+                                          <thead>
+                                             <tr>
+                                                   <th class="dark-mode" align="center" colspan="6" style="background-color: #b3cee9;width: 796px; font-size: 14px;padding: 20px 16px 20px 16px;border-radius: 8px 0 0 0; border-right: 1px solid #e0e0e0; border-radius: 8px 0 0 0;">GENERIC INFORMATION</th>
+                                                   <th class="dark-mode" align="center" colspan="4" style="background-color: #b3cee9;width: 530px; font-size: 14px;padding: 20px 16px 20px 16px; border-right: 1px solid #e0e0e0;">FLOW SOURCE</th>
+                                                   <th class="dark-mode" align="center" colspan="4" style="background-color: #b3cee9;width: 530px; font-size: 14px;padding: 20px 16px 20px 16px; border-radius: 0 8px 0 0;">FLOW DESTINATION</th>
+                                             </tr>
+                                             <tr>
+                                                <th class="dark-mode" align="left" style="background-color: #d0dce8;width: 130px; font-size: 14px;padding: 20px 16px 20px 16px;">APLICTION</th>
+                                                <th class="dark-mode" align="left" style="background-color: #d0dce8;width: 130px; font-size: 14px;padding: 20px 16px 20px 16px;">PROTOCOL</th>
+                                                <th class="dark-mode" align="left" style="background-color: #d0dce8;width: 130px; font-size: 14px;padding: 20px 16px 20px 16px;">FLOW<br>ENTERFACE</th>
+                                                <th class="dark-mode" align="left" style="background-color: #d0dce8;width: 130px; font-size: 14px;padding: 20px 16px 20px 16px;">FLOW<br>DIRECTION</th>
+                                                <th class="dark-mode" align="left" style="background-color: #d0dce8;width: 130px; font-size: 14px;padding: 20px 16px 20px 16px;">FIRST PACKET<br>TIME</th>
+                                                <th class="dark-mode" align="left" style="background-color: #d0dce8;width: 130px; font-size: 14px;padding: 20px 16px 20px 16px; border-right: 1px solid #e0e0e0;">LAST PACKET<br>TIME</th>
+                                                <th class="dark-mode" align="left" style="background-color: #d0dce8;width: 130px; font-size: 14px;padding: 20px 16px 20px 16px;">SOURCE IP</th>
+                                                <th class="dark-mode" align="left" style="background-color: #d0dce8;width: 130px; font-size: 14px;padding: 20px 16px 20px 16px;">SOURCE PORT</th>
+                                                <th class="dark-mode" align="left" style="background-color: #d0dce8;width: 130px; font-size: 14px;padding: 20px 16px 20px 16px;">BYTES SENT</th>
+                                                <th class="dark-mode" align="left" style="background-color: #d0dce8;width: 130px; font-size: 14px;padding: 20px 16px 20px 16px; border-right: 1px solid #e0e0e0;">PACKETS SENT</th>
+                                                <th class="dark-mode" align="left" style="background-color: #d0dce8;width: 130px; font-size: 14px;padding: 20px 16px 20px 16px;">DESTINATION<br>IP</th>
+                                                <th class="dark-mode" align="left" style="background-color: #d0dce8;width: 130px; font-size: 14px;padding: 20px 16px 20px 16px;">DESTINATION<br>PORT</th>
+                                                <th class="dark-mode" align="left" style="background-color: #d0dce8;width: 130px; font-size: 14px;padding: 20px 16px 20px 16px;">BYTES<br>RECEVED</th>
+                                                <th class="dark-mode" align="left" style="background-color: #d0dce8;width: 130px; font-size: 14px;padding: 20px 16px 20px 16px;">PACKETS<br>RECEVED</th>
+                                             </tr>
+                                          <thead>
+                                          <tr >
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${flow_Application}</td>
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${flow_Protocol}</td>
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${flow_FlowInterface}</td>
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${flow_FlowDirection}</td>
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align=l"eft>${flow_FirstPacketTime}</td>
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0; border-right: 1px solid #e0e0e0;" align=l"eft>${flow_LastPacketTime}</td>
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${flow_SourceIP}</td>
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${flow_SourcePort}</td>
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${flow_SourceBytes}</td> 
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0; border-right: 1px solid #e0e0e0;" align="left">${flow_SourcePackets}</td>
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${flow_DestinationIP}</td>
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${flow_DestinationPort}</td>
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="right">${flow_DestinationBytes}</td>
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="right">${flow_DestinationPackets}</td>
+
+                                          </tr>
+                                          <tr>
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px; border-radius: 0 0 0 8px; border-bottom: 1px solid #e0e0e0;" align="left">${flow_Application}</td>
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${flow_Protocol}</td>
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${flow_FlowInterface}</td>
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${flow_FlowDirection}</td>
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align=l"eft>${flow_FirstPacketTime}</td>
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0; border-right: 1px solid #e0e0e0;" align=l"eft>${flow_LastPacketTime}</td>
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${flow_SourceIP}</td>
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${flow_SourcePort}</td>
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${flow_SourceBytes}</td> 
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0; border-right: 1px solid #e0e0e0;" align="left">${flow_SourcePackets}</td>
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${flow_DestinationIP}</td>
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="left">${flow_DestinationPort}</td>
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px;  border-bottom: 1px solid #e0e0e0;" align="right">${flow_DestinationBytes}</td>
+                                             <td style="background-color: #ffffff;font-size: 14px; padding: 15px 16px 15px 16px; border-radius: 0 0 8px 0; border-bottom: 1px solid #e0e0e0;" align="right">${flow_DestinationPackets}</td>
+
+                                          </tr>
+                                    </table>
+                                 </td>
+                              </tr>
+                           </table>
+                           <!--End Flows-->
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+            <tr>
+               <td height="16"></td>
+            </tr>
+            <!--End Events and Flows-->
+         </table>
+         <!--[if (gte mso 9)|(IE)]>
+         </td>
+         </tr>
+         </table>
+         <![endif]-->
+      </div>
+   </center>
+
+</body>
+</html>
