@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -7,11 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ARTI | Beauty studio</title>
-    <link rel="shortcut icon" href="./images/pictures/logo-white.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/pictures/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="shortcut icon" href="./images/icons/favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="./fonts/*.*">
@@ -22,6 +20,7 @@
 
 <body>
     <header class="header" id="top">
+        <div class="wrapper">
         <div class="header-inner">
             <div class="header-block">
                 <a class="header-logo" href="index.html">
@@ -35,12 +34,14 @@
                 </div>
             </div>
         </div>
+        </div>
     </header>
     <main class="main">
 
         <section class="section" id="main">
             <div class="section-wrapper">
-                <div class="section-block bg-image" style="background-image: url(./images/pictures/viktorija.png);">
+                <div class="section-block aspect-square">
+                    <img class="image" src="./images/pictures/viktorija.png" alt="main" >
                 </div>
                 <div class="section-block  content">
                     <div class="section-content">
@@ -81,17 +82,16 @@
                     </div>
 
                 </div>
-                <div class="section-block bg-image" style="background-image: url(./images/pictures/studio.jpg);">
+                <div class="section-block aspect-square">
+                    <img class="image" src="./images/pictures/studio.jpg" alt="studio" >
                 </div>
             </div>
         </section>
 
         <section class="section" id="style">
             <div class="section-wrapper reverse">
-                <div class="slider">
-                    <div class="slider-item" style="background-image: url(./images/pictures/slider-1.png);"></div>
-                    <div class="slider-item" style="background-image: url(./images/pictures/slider-1.png);"></div>
-                    <div class="slider-item" style="background-image: url(./images/pictures/slider-1.png);"></div>
+                <div class="section-block aspect-square">
+                    <img class="image" src="./images/pictures/style.gif" alt="style" >
                 </div>
                 <div class="section-block content">
                     <div class="section-content">
@@ -144,77 +144,70 @@
                         Dolorum asperiores aliquid nobis magnam voluptates! Nulla modi quisquam dolorem id nostrum.
                     </p>
                 </div>
-                <div class="wrapper content-center">
-                    <div class="team-item">
-                        <div class="team-item__block">
-                            <img src="./images/pictures/ViktorijaParutite.jpeg" alt="team member">
+                <div class="wrapper team-wrapper">
+                    <div class="team-unit">
+                        <div class="team-unit__img">
+                            <img src="./images/pictures/ViktorijaParutite.jpeg" alt="team unit #1">
                         </div>
-                        <div class="team-item__wrapper">
-                            <div class="team-item__block">
-                                <div class="team-item__block_content">
-                                    <p class="p-black">Name</p>
-                                    <p class="p-black">Position</p>
-                                </div>
-                                <div class="team-item__block_content right20">
+                        <div class="team-unit__info">
+                            <div class="team-unit__info_name">
+                                <p class="p-black">Name</p>
+                                <p class="p-black">Position</p>
+                            </div>
+                            <div class="team-unit__info_links">
+                                <div class="team-unit__info_link">
                                     <a class="team-item__block_link" href="https//instagram.com">
                                         <img class="link-black" src="./images/pictures/insta-logo.png" alt="Instagram">
                                         <img class="link-white" src="./images/pictures/insta-logo-white.png"
                                             alt="Instagram">
                                     </a>
                                 </div>
-                            </div>
-                            <div class="team-item__block">
-                                <div class="btn btn-black"><a href="#booking"></a>book vizit</div>
+                                    <div class="btn btn-black"><a href="#booking"></a>book vizit</div>
                             </div>
                         </div>
                     </div>
-                    <div class="team-item">
-                        <div class="team-item__block">
-                            <img src="./images/pictures/ViktorijaParutite.jpeg" alt="team member">
+                    <div class="team-unit">
+                        <div class="team-unit__img">
+                            <img src="./images/pictures/ViktorijaParutite.jpeg" alt="team unit #1">
                         </div>
-                        <div class="team-item__wrapper">
-                            <div class="team-item__block">
-                                <div class="team-item__block_content">
-                                    <p class="p-black">Name</p>
-                                    <p class="p-black">Position</p>
-                                </div>
-                                <div class="team-item__block_content right20">
-                                    <a class="team-item__block_link" href="https//instagram.com"> <img
-                                            class="link-black" src="./images/pictures/insta-logo.png" alt="Instagram">
+                        <div class="team-unit__info">
+                            <div class="team-unit__info_name">
+                                <p class="p-black">Name</p>
+                                <p class="p-black">Position</p>
+                            </div>
+                            <div class="team-unit__info_links">
+                                <div class="team-unit__info_link">
+                                    <a class="team-item__block_link" href="https//instagram.com">
+                                        <img class="link-black" src="./images/pictures/insta-logo.png" alt="Instagram">
                                         <img class="link-white" src="./images/pictures/insta-logo-white.png"
                                             alt="Instagram">
                                     </a>
                                 </div>
-                            </div>
-                            <div class="team-item__block">
-                                <div class="btn btn-black"><a href="#booking"></a>book vizit</div>
+                                    <div class="btn btn-black"><a href="#booking"></a>book vizit</div>
                             </div>
                         </div>
                     </div>
-                    <div class="team-item">
-                        <div class="team-item__block">
-                            <img src="./images/pictures/ViktorijaParutite.jpeg" alt="team member">
+                    <div class="team-unit">
+                        <div class="team-unit__img">
+                            <img src="./images/pictures/ViktorijaParutite.jpeg" alt="team unit #1">
                         </div>
-                        <div class="team-item__wrapper">
-                            <div class="team-item__block">
-                                <div class="team-item__block_content">
-                                    <p class="p-black">Name</p>
-                                    <p class="p-black">Position</p>
-                                </div>
-                                <div class="team-item__block_content right20">
-                                    <a class="team-item__block_link" href="https//instagram.com"> <img
-                                            class="link-black" src="./images/pictures/insta-logo.png" alt="Instagram">
+                        <div class="team-unit__info">
+                            <div class="team-unit__info_name">
+                                <p class="p-black">Name</p>
+                                <p class="p-black">Position</p>
+                            </div>
+                            <div class="team-unit__info_links">
+                                <div class="team-unit__info_link">
+                                    <a class="team-item__block_link" href="https//instagram.com">
+                                        <img class="link-black" src="./images/pictures/insta-logo.png" alt="Instagram">
                                         <img class="link-white" src="./images/pictures/insta-logo-white.png"
                                             alt="Instagram">
                                     </a>
                                 </div>
-                            </div>
-                            <div class="team-item__block">
-                                <div class="btn btn-black"><a href="#booking"></a>book vizit</div>
+                                    <div class="btn btn-black"><a href="#booking"></a>book vizit</div>
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </section>
 
@@ -304,9 +297,30 @@
             <div class="footer-block name">
                 <h3 class="h3-white">contact us:</h2>
 
-                    <div class="name-item"><a href="#">Viktorija Parutite</a></div>
-                    <div class="name-item"><a href="#">Inga</a></div>
-                    <div class="name-item"><a href="#">Živile</a></div>
+                    <div class="name-item">
+                        <p class="p-white">Viktorija Parutite</p> 
+                        <div class="name-item__links">
+                                                    <a class="name-item__link" href="mailto: example@example.com"><img class="name-item__link_img" src="./images/pictures/email-logo.png" alt=""></a>
+                        <a class="name-item__link" href="#"><img class="name-item__link_img" src="./images/pictures/watalook_logo.png" alt=""></a>
+                        </div>
+
+                    </div>
+                    <div class="name-item">
+                        <p class="p-white">Živile</p> 
+                        <div class="name-item__links">
+                            <a class="name-item__link" href="mailto: example@example.com"><img class="name-item__link_img" src="./images/pictures/email-logo.png" alt=""></a>
+                        <a class="name-item__link" href="#"><img class="name-item__link_img" src="./images/pictures/watalook_logo.png" alt=""></a>
+                        </div>
+
+                    </div>
+                    <div class="name-item">
+                        <p class="p-white">Eglė</p> 
+                        <div class="name-item__links">
+                            <a class="name-item__link" href="mailto: example@example.com"><img class="name-item__link_img" src="./images/pictures/email-logo.png" alt=""></a>
+                        <a class="name-item__link" href="#"><img class="name-item__link_img" src="./images/pictures/watalook_logo.png" alt=""></a>
+                        </div>
+
+                    </div>
             </div>
             <div class="footer-block footer-logo">
                 <a href="index.html"><img src="./images/pictures/logo-white.png" alt="ARTI"></a>
