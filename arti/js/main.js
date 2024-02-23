@@ -30,15 +30,14 @@ $('.slider').slick({
 
 
 
-// Slider for review
-// $(function() {
-//     $('.slider').slick({
-//         dots: false,
-//         speed: 3000,
-//         autoplay: false,
-//         cssEase: 'linear',
-//         autoplaySpeed: 3000,
-//         prevArrow: false,
-//         nextArrow: false
-//     });
-// });
+$(function() {
+    $('.burger').on('click', function() {
+        $(this).toggleClass('active');
+        $('body').toggleClass('stop-scroll');
+        $('.menu').toggleClass('visible');
+    })
+    $('.menu-link, .menu-list').on('click', function() {
+        $('.burger').removeClass('active');
+        $('.menu').removeClass('visible');
+    })
+})
