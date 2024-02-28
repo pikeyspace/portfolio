@@ -39,5 +39,25 @@ $(function() {
     $('.menu-link, .menu-list').on('click', function() {
         $('.burger').removeClass('active');
         $('.menu').removeClass('visible');
+        $('body').removeClass('stop-scroll');
+
     })
+    $('.team-unit__info_link a').on('click', function(){
+        $('body').addClass('stop-scroll');
+    })
+    $('.closepopup').on('click', function(){
+        $('body').removeClass('stop-scroll');
+    })
+
 })
+
+
+// $(document).ready(function() {
+//     $(".menu-item").on("click", "a", function(event) {
+//         event.preventDefault();
+//         var id = $(this).attr('href'),
+//             top = $(id).offset().top,
+//             offset = $('header').innerHeight();
+//         $('body,html').animate({ scrollTop: top - offset }, 1500);
+//     });
+// });
