@@ -44,9 +44,11 @@ $(function() {
     })
     $('.team-unit__info_link a').on('click', function(){
         $('body').addClass('stop-scroll');
+        $('.header .wrapper').addClass('display-none');
     })
     $('.closepopup').on('click', function(){
         $('body').removeClass('stop-scroll');
+        $('.header .wrapper').removeClass('display-none');
     })
 
 })
